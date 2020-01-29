@@ -131,21 +131,36 @@ img {
 
 .main-footer-container p {
 	margin-bottom: 2rem;
+	text-align: center;
 }
 
 .contact-info {
 	font-style: normal;
+	margin-bottom: 2rem;
 }
 
-/* todo: elements inside the address */
+.contact-info p {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.contact-info p:last-child {
+	margin-bottom: 0;
+}
 
 .credits {
 	border-top: solid lightgray 0.05rem;
 	padding-top: 1.5rem;
 }
 
-/* todo credits styling */
+.credits p {
+	margin-bottom: 0;
+	float: left;
+}
 
+.credits p + p {
+	float: right;
+}
 
 .footer-nav {
 	display: none;
