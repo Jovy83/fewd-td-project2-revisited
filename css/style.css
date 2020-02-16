@@ -26,6 +26,9 @@ h3 {
 
 a {
 	text-decoration: none;
+	color: rgb(57, 57, 57);
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 img {
@@ -68,9 +71,7 @@ img {
 }
 
 .main-nav li a {
-	color: rgb(57, 57, 57);
 	text-transform: uppercase;
-	font-weight: bold;
 	display: block;
 }
 
@@ -139,6 +140,14 @@ img {
 .contact-info p {
 	text-align: center;
 	margin-bottom: 1rem;
+}
+
+.contact-info strong {
+	margin-left: 1rem;
+}
+
+.contact-info strong a {
+	text-transform: initial;
 }
 
 .contact-info p:last-child {
@@ -211,7 +220,24 @@ img {
 		/* keep height of this element consistent so that the cards align up properly*/
 		height: 3.75em;
 	}
-	
+
+	.credits p + p {
+		display: none;
+	}
+
+	.footer-nav {
+		float: right;
+		display: initial;
+	}
+
+	.footer-nav ul li {
+		display: inline;
+		margin: 0 0.5rem;
+	}
+
+	.footer-nav ul li:last-child {
+		margin-right: 0;
+	}
 }
 
 @media (min-width: 1024px) {
