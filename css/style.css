@@ -201,6 +201,16 @@ img {
 		font-size: 1.1rem;
 		padding-right: 1rem;
 	}
+
+	.card {
+		float: left;
+		width: 50%;
+	}
+
+	.card p {
+		/* keep height of this element consistent so that the cards align up properly*/
+		height: 3.75em;
+	}
 	
 }
 
