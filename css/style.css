@@ -134,7 +134,7 @@ img {
 
 .contact-info {
 	font-style: normal;
-	margin-bottom: 2rem;
+	margin-bottom: 4rem;
 }
 
 .contact-info p {
@@ -218,7 +218,7 @@ img {
 
 	.card p {
 		/* keep height of this element consistent so that the cards align up properly*/
-		height: 3.75em;
+		/* height: 3.75em; */
 	}
 
 	.credits p + p {
@@ -241,5 +241,24 @@ img {
 }
 
 @media (min-width: 1024px) {
+	.name {
+		float: left;
+	}
 
+	.nav-container {
+		float: right;
+		padding-top: 0.8rem;
+	}
+
+	.main-nav li:last-child {
+		margin-right: 0;
+	}
+
+	.logo {
+		width: 30%;
+	}
+
+	.card {
+		width: 33%;
+	}
 }
