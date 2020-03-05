@@ -55,7 +55,8 @@ img {
 .name,
 .main-nav, 
 .logo-container,
-.main-container-title,
+.portfolio-container-title,
+.skills-container-title,
 .card,
 .main-footer-title {
 	text-align: center;
@@ -95,7 +96,12 @@ img {
 	padding: 3rem 0;
 }
 
-.main-container-title {
+.portfolio-container {
+	margin-bottom: 3rem;
+}
+
+.portfolio-container-title,
+.skills-container-title {
 	text-transform: uppercase;
 	margin-bottom: 3rem;
 }
