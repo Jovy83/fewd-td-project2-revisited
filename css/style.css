@@ -57,6 +57,7 @@ img {
 .logo-container,
 .portfolio-container-title,
 .skills-container-title,
+.skills-ul,
 .card,
 .main-footer-title {
 	text-align: center;
@@ -127,6 +128,22 @@ img {
 
 .card:last-child {
 	margin-bottom: 0;
+}
+
+.skills-ul {
+	margin: 0 2rem;
+}
+
+.skills-ul li {
+	color: white;
+	background-color: rgba(45, 45, 45, 1);
+	margin-bottom: 0.3rem;
+	padding: 1rem;
+	box-shadow: 3px 2px 3px #cdcdcd;
+}
+
+.skills-ul li:hover {
+	background-color: rgba(66, 66, 66 , 1);
 }
 
 .main-footer-title {
@@ -229,6 +246,11 @@ img {
 		/* height: 3.75em; */
 	}
 
+	.skills-ul li {
+		width: 49%;
+		display: inline-block;
+	}
+
 	.credits p + p {
 		display: none;
 	}
@@ -269,4 +291,8 @@ img {
 	.card {
 		width: 33.33%;
 	}
+
+	.skills-ul li {
+		width: 24%;
+	  }
 }
