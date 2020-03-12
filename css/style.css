@@ -67,15 +67,24 @@ img {
 	margin-bottom: 2rem;
 }
 
+nav ul li a {
+	transition: all 0.5s;
+}
+
 .main-nav li {
-	padding: 0.5rem 0;
 	margin: 0.5rem 0;
 	background-color: white;
 }
 
 .main-nav li a {
-	text-transform: uppercase;
+	padding: 0.5rem 0;
 	display: block;
+	text-transform: uppercase;
+}
+
+.main-nav li a:hover {
+	color: white;
+	background-color: rgba(45, 45, 45, 1);
 }
 
 .nav-container {
@@ -174,6 +183,11 @@ img {
 	text-transform: initial;
 }
 
+.contact-info strong a:hover {
+	border-bottom: 2px solid #626F7E;
+	color: #626F7E;
+}
+
 .contact-info p:last-child {
 	margin-bottom: 0;
 }
@@ -186,11 +200,23 @@ img {
 .credits p {
 	margin-bottom: 0;
 	float: left;
+	color: #9b9c9c;
 }
 
 .credits p + p {
 	float: right;
 }
+
+.credits p a {
+	color: inherit;
+	padding: 0.5rem;
+	transition: all 0.5s;
+}
+
+.credits p a:hover {
+	background-color: #5E5E5E;
+	color: #FAFAFA;
+  }
 
 .footer-nav {
 	display: none;
@@ -262,11 +288,20 @@ img {
 
 	.footer-nav ul li {
 		display: inline;
-		margin: 0 0.5rem;
 	}
 
 	.footer-nav ul li:last-child {
 		margin-right: 0;
+	}
+
+	.footer-nav ul li a {
+		padding: 1rem 1rem;
+		color: #9b9c9c;
+	}
+
+	.footer-nav ul li a:hover {
+		background-color: #9b9c9c;
+		color: #FAFAFA;
 	}
 }
 
@@ -294,5 +329,5 @@ img {
 
 	.skills-ul li {
 		width: 24%;
-	  }
+	}
 }
