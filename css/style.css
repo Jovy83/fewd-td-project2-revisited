@@ -14,13 +14,13 @@ body {
 
 p {
 	font-size: .95rem;
-	/* margin-bottom: 1.8em; */
 }
 
 p,
 h1,
 h2,
 h3 {
+	font-family: 'Lato', sans-serif;
 	margin: 0;
 }
 
@@ -237,10 +237,13 @@ nav ul li a {
 @media (min-width: 768px) {
 
 	.main-nav li {
-		padding: 0;
-		margin: 0 1rem;
-		background-color: transparent;
 		display: inline-block;
+		background-color: transparent;
+		margin-top: 0;
+	}
+
+	.main-nav li a {
+		padding: 1rem 1.5rem;
 	}
 
 	.logo-container {
@@ -267,11 +270,6 @@ nav ul li a {
 		padding: 0.5rem;
 	}
 
-	.card p {
-		/* keep height of this element consistent so that the cards align up properly*/
-		/* height: 3.75em; */
-	}
-
 	.skills-ul li {
 		width: 49%;
 		display: inline-block;
@@ -295,7 +293,7 @@ nav ul li a {
 	}
 
 	.footer-nav ul li a {
-		padding: 1rem 1rem;
+		padding: 1rem;
 		color: #9b9c9c;
 	}
 
@@ -312,7 +310,6 @@ nav ul li a {
 
 	.nav-container {
 		float: right;
-		padding-top: 0.8rem;
 	}
 
 	.main-nav li:last-child {
